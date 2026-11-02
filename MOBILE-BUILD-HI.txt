@@ -1,0 +1,17 @@
+JARVIS AI — केवल मोबाइल से APK बनाने की गाइड
+
+1. इस ZIP को extract करें। अंदर android नाम का project folder है।
+2. मोबाइल browser में github.com खोलकर account बनाएं या login करें।
+3. New repository बनाएं, नाम JarvisAI रखें।
+4. android folder के अंदर की सभी files/folders repository के root में upload करें।
+   ध्यान दें: .github folder भी upload होना चाहिए।
+5. Upload के बाद repository में Actions tab खोलें।
+6. Build Jarvis AI APK workflow चुनें और Run workflow दबाएं।
+7. Build पूरा होने पर workflow run खोलें → Artifacts → JarvisAI-debug-apk डाउनलोड करें।
+8. ZIP extract करके app-debug.apk खोलें। Android पूछे तो केवल भरोसेमंद अपने build के लिए install permission दें।
+
+महत्वपूर्ण:
+- यह debug APK है, Play Store release-signed APK नहीं।
+- अभी Android code में BASE_URL placeholder है। AI chat वास्तव में चलाने के लिए backend deploy करके MainActivity.kt में अपना HTTPS URL डालना होगा।
+- OpenAI secret key को Android app में कभी न डालें; उसे backend host के Environment Variables में रखें।
+- GitHub Actions में build के लिए source upload करें; API key या .env file repository में upload न करें।

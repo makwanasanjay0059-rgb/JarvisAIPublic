@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Jarvis AI Assistant//Schedule//EN
+BEGIN:VEVENT
+SUMMARY:Team Meeting
+DTSTART:20261102T090000Z
+DTEND:20261102T100000Z
+DESCRIPTION:Weekly sprint alignment and quarterly milestone review
+LOCATION:Stark Tower Conference Room A
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Project Review
+DTSTART:20261102T113000Z
+DTEND:20261102T123000Z
+DESCRIPTION:Architecture inspection of Android exact alarm triggers & Room sync
+LOCATION:Lab 4 / Google Meet
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Client Call
+DTSTART:20261102T140000Z
+DTEND:20261102T144500Z
+DESCRIPTION:Review deployment deliverable & signed APK requirements
+LOCATION:Secure Comms Channel 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gym
+DTSTART:20261102T170000Z
+DTEND:20261102T180000Z
+DESCRIPTION:High-intensity interval training & physical conditioning
+LOCATION:Stark Industries Wellness Center
+END:VEVENT
+END:VCALENDAR
